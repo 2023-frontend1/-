@@ -1,20 +1,31 @@
 module.exports = {
-  root: true,
-  env: { browser: true, es2020: true },
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:react/jsx-runtime',
-    'plugin:react-hooks/recommended',
-  ],
-  ignorePatterns: ['dist', '.eslintrc.cjs'],
-  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
-  settings: { react: { version: '18.2' } },
-  plugins: ['react-refresh'],
-  rules: {
-    'react-refresh/only-export-components': [
-      'warn',
-      { allowConstantExport: true },
-    ],
-  },
+	env: {
+		browser: true,
+		es6: true,
+	},
+	parserOptions: {
+		ecmaFeatures: {
+			modules: true,
+			jsx: true,
+		},
+		ecmaVersion: 2020,
+		sourceType: 'module',
+	},
+	plugins: ['react', 'unused-imports', 'simple-import-sort', 'prettier'],
+	rules: {
+		'no-unused-vars': 'warn', // 미사용 변수 -> 경고 (노란줄)
+		'react/jsx-uses-vars': 'error',
+		'react/jsx-uses-react': 'error',
+		'space-before-function-paren': [
+			'error',
+			{
+				anonymous: 'ignore',
+				named: 'never',
+				asyncArrow: 'always',
+			},
+		],
+		'unused-imports/no-unused-imports-ts': ['error'],
+		// 'simple-import-sort/imports': 'error',
+		'prettier/prettier': ['error', { singleQuote: true }], // 문자열 홑따옴표
+	},
 }
