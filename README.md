@@ -29,6 +29,11 @@ _*당근마켓을 오마주한 간단 토이 프로젝트입니다._
 
 ## ⭐️ Pull Request 컨벤션
   #### 1. PR 제목은 다음과 같이 작성해 주세요.
+
+  ```
+  📢 PR: 작업 내용
+  ```
+
   <img width="922" alt="스크린샷 2023-11-15 오전 2 17 47" src="https://github.com/2023-frontend1/Paprika-Market/assets/50646145/0727c73c-e1cc-4163-aba9-892aaa348bb7">
 
   #### 2. PR 템플릿 작성해두었습니다.
