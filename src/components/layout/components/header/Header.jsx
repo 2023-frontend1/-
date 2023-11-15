@@ -10,14 +10,14 @@ const Header = () => {
 
 	return (
 		<S.HeaderContainer>
-			<S.Logo
-				onClick={() => {
-					OnCategoryClick('/')
-				}}
-				src={Logo}
-				alt=""
-			/>
 			<S.HeaderNav>
+				<S.Logo
+					onClick={() => {
+						OnCategoryClick('/')
+					}}
+					src={Logo}
+					alt=""
+				/>
 				<S.Link
 					onClick={() => {
 						OnCategoryClick('/market')
