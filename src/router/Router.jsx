@@ -1,5 +1,11 @@
 import { Layout } from '@/components'
-import { MainPage, MarketPage, ProductPage, UserPage } from '@/pages'
+import {
+	MainPage,
+	MarketPage,
+	ProductPage,
+	UserPage,
+	NotFoundPage,
+} from '@/pages'
 import { createBrowserRouter } from 'react-router-dom'
 
 const Router = createBrowserRouter([
@@ -24,6 +30,10 @@ const Router = createBrowserRouter([
 				element: <UserPage />,
 			},
 		],
+	},
+	{
+		path: '/*',
+		element: <NotFoundPage />,
 	},
 ])
 
