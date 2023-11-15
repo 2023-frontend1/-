@@ -27,26 +27,21 @@ _*당근마켓을 오마주한 간단 토이 프로젝트입니다._
 <br/>
 <br/>
 
-## ⭐️ Pull Request 컨벤션
-  #### 1. PR 제목은 다음과 같이 작성해 주세요.
 
-  ```
-  📢 PR: 작업 내용
-  ```
+## 🔱 분기 생성
 
-  <img width="922" alt="스크린샷 2023-11-15 오전 2 17 47" src="https://github.com/2023-frontend1/Paprika-Market/assets/50646145/0727c73c-e1cc-4163-aba9-892aaa348bb7">
+- Branch 생성 시, 다음과 같은 이름으로 생성해주세요.
 
-  #### 2. PR 템플릿 작성해두었습니다.
+```
+{Label 명}/{작업명}
+```
 
-  <img width="924" alt="스크린샷 2023-11-15 오전 2 09 58" src="https://github.com/2023-frontend1/Paprika-Market/assets/50646145/5d4104a6-947a-441b-a920-7aa7607055fb">
+<br/>
 
-_(👆위 사진 처럼 작성하면, 👇아래 사진 처럼 보여요~~)_
+- `작업명` 은 파스칼케이스로 작성해주세요.
+- `Label 명` 은 다음과 같습니다.
 
-  <img width="946" alt="스크린샷 2023-11-15 오전 2 10 11" src="https://github.com/2023-frontend1/Paprika-Market/assets/50646145/75f9f10d-4326-4ad9-8b04-d3f8caf09212">
-
-  #### 3. Merge 할 때, description 내용을 title 옮겨 적어주세요.
-
-  https://github.com/2023-frontend1/Paprika-Market/assets/50646145/962179e3-692c-4a80-a841-ae3ef34709f4
+  <img width="283" alt="label_name" src="https://github.com/2023-frontend1/Paprika-Market/assets/50646145/a7b9b9d7-6f94-4c9d-99a7-0f4416265a63">
 
 
 <br/>
@@ -92,3 +87,30 @@ _(이모지까지 꼭 같이 넣어서 작성해세요~!)_
   ```
   🌀 Chore: 작업 내용 설명
   ```
+
+
+<br/>
+<br/>
+
+
+  ## ⭐️ Pull Request 컨벤션
+  #### 1. PR 제목은 다음과 같이 작성해 주세요.
+
+  ```
+  📢 PR: 작업 내용
+  ```
+
+  <img width="922" alt="스크린샷 2023-11-15 오전 2 17 47" src="https://github.com/2023-frontend1/Paprika-Market/assets/50646145/0727c73c-e1cc-4163-aba9-892aaa348bb7">
+
+  #### 2. PR 템플릿 작성해두었습니다.
+
+  <img width="924" alt="스크린샷 2023-11-15 오전 2 09 58" src="https://github.com/2023-frontend1/Paprika-Market/assets/50646145/5d4104a6-947a-441b-a920-7aa7607055fb">
+
+_(👆위 사진 처럼 작성하면, 👇아래 사진 처럼 보여요~~)_
+
+  <img width="946" alt="스크린샷 2023-11-15 오전 2 10 11" src="https://github.com/2023-frontend1/Paprika-Market/assets/50646145/75f9f10d-4326-4ad9-8b04-d3f8caf09212">
+
+  #### 3. Merge 할 때, description 내용을 title 옮겨 적어주세요.
+
+  https://github.com/2023-frontend1/Paprika-Market/assets/50646145/962179e3-692c-4a80-a841-ae3ef34709f4
+
