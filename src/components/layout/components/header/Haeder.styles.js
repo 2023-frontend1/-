@@ -6,7 +6,7 @@ const HeaderContainer = styled.div`
 	justify-content: space-between;
 	width: 100%;
 	position: fixed;
-	top: 2px;
+	top: 0px;
 	z-index: 100;
 `
 
