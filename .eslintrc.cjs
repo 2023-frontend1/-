@@ -25,7 +25,5 @@ module.exports = {
 			},
 		],
 		'unused-imports/no-unused-imports-ts': ['error'],
-		// 'simple-import-sort/imports': 'error',
-		'prettier/prettier': ['error', { singleQuote: true }], // 문자열 홑따옴표
 	},
 }
