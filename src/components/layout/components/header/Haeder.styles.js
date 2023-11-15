@@ -40,7 +40,6 @@ const Link = styled.a`
 	}
 `
 const Logo = styled.img`
-	background-image: url('../images/logo.png');
 	width: 100px;
 	height: 100px;
 `
