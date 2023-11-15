@@ -14,6 +14,7 @@ const HeaderNav = styled.ul`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-left: 100px;
 `
 const SearchDiv = styled.div`
 	display: flex;
@@ -40,8 +41,9 @@ const Link = styled.li`
 	}
 `
 const Logo = styled.img`
-	width: 100px;
-	height: 100px;
+	width: 40px;
+	height: 40px;
+	margin-right: 28px;
 `
 const Button = styled.button`
 	border: 1px solid #b1b3b652;
