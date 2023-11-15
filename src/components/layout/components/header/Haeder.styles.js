@@ -30,7 +30,7 @@ const SearchInput = styled.input`
 	padding-left: 12px;
 	margin-right: 12px;
 `
-const Link = styled.a`
+const Link = styled.li`
 	margin-right: 28px;
 	font-size: 18px;
 	font-weight: 700;
