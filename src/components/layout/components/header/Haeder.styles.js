@@ -43,7 +43,6 @@ const Logo = styled.img`
 	background-image: url('../images/logo.png');
 	width: 100px;
 	height: 100px;
-	z-index: 200;
 `
 const Button = styled.button`
 	border: 1px solid #b1b3b652;
