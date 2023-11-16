@@ -1,26 +1,26 @@
-export const Color = {
-	Orange: {
+const Color = {
+	orange: {
 		100: '#FFEAC0',
 		75: '#F8C665',
-		50: '#FC8500',
+		50: '#FC8500', // 50 이 표준 색상입니다.
 		25: '#905A1E',
 		0: '#654016',
 	},
-	Green: {
+	green: {
 		100: '#D2FFD6',
 		75: '#73EE7F',
-		50: '#1AD02C',
+		50: '#1AD02C', // 50 이 표준 색상입니다.
 		25: '#22772A',
 		0: '#0D4A13',
 	},
-	Red: {
+	red: {
 		100: '#FF7070',
 		75: '#FA4949',
-		50: '#D80000',
+		50: '#D80000', // 50 이 표준 색상입니다.
 		25: '#A62525',
 		0: '#6C1515',
 	},
-	GrayScale: {
+	grayScale: {
 		100: '#FFFFFF',
 		80: '#CBCBCB',
 		60: '#989898',
@@ -29,3 +29,5 @@ export const Color = {
 		0: '#000000',
 	},
 }
+
+export default Color

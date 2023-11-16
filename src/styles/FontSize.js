@@ -1,4 +1,4 @@
-export const FontSize = {
+const FontSize = {
 	tiny: '1.4rem',
 	small: '1.8rem',
 	medium: '2.0rem',
@@ -6,3 +6,5 @@ export const FontSize = {
 	big: '3.2rem',
 	huge: '4.8rem',
 }
+
+export default FontSize
