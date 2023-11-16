@@ -1,6 +1,7 @@
 import S from './Haeder.styles'
 import Logo from '/images/Logo.png'
 import { useNavigate } from 'react-router-dom'
+import { Button } from '@/components'
 
 const Header = () => {
 	const navigate = useNavigate()
@@ -62,7 +63,9 @@ const Header = () => {
 						placeholder="물품이나 동네를 검색해보세요"
 					/>
 				</form>
-				<S.Button>채팅하기</S.Button>
+				<Button variant="first" size="small" shape="default">
+					채팅하기
+				</Button>
 			</S.SearchDiv>
 		</S.HeaderContainer>
 	)

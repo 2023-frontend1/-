@@ -45,14 +45,6 @@ const Logo = styled.img`
 	height: 40px;
 	margin-right: 28px;
 `
-const Button = styled.button`
-	border: 1px solid #b1b3b652;
-	font-weight: 700;
-	background-color: white;
-	&:hover {
-		background-color: #eef0f4;
-	}
-`
 const S = {
 	HeaderContainer,
 	HeaderNav,
@@ -60,6 +52,5 @@ const S = {
 	SearchInput,
 	Link,
 	Logo,
-	Button,
 }
 export default S
