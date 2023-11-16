@@ -13,10 +13,10 @@ const DisplayFlex = {
 		display: flex;
 		justify-content: space-between;
 	`,
-	alignMiddle: css`
+	flexCenter: css`
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
 	`,
 	directionColumn: css`
 		display: flex;
