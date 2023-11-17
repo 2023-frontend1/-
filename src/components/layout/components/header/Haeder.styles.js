@@ -1,19 +1,22 @@
 import styled from 'styled-components'
 
 const HeaderContainer = styled.div`
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 100%;
+	width: 100vw;
 	position: fixed;
 	top: 0px;
+	height: 68px;
+	background-color: white;
 	z-index: 100;
-`
-
-const HeaderNav = styled.ul`
 	display: flex;
 	justify-content: center;
-	align-items: center;
+`
+
+const HeaderNav = styled.div`
+	width: 910px;
+`
+
+const HeaderUl = styled.ul`
+	display: flex;
 	margin-left: 100px;
 `
 const SearchDiv = styled.div`
@@ -45,21 +48,14 @@ const Logo = styled.img`
 	height: 40px;
 	margin-right: 28px;
 `
-const Button = styled.button`
-	border: 1px solid #b1b3b652;
-	font-weight: 700;
-	background-color: white;
-	&:hover {
-		background-color: #eef0f4;
-	}
-`
+
 const S = {
 	HeaderContainer,
 	HeaderNav,
+	HeaderUl,
 	SearchDiv,
 	SearchInput,
 	Link,
 	Logo,
-	Button,
 }
 export default S
