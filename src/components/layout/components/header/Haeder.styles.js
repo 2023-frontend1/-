@@ -1,3 +1,4 @@
+import { FlexCenter, JustifyCenter } from '@/styles/Common'
 import styled from 'styled-components'
 
 const HeaderContainer = styled.div`
@@ -7,8 +8,7 @@ const HeaderContainer = styled.div`
 	height: 68px;
 	background-color: white;
 	z-index: 100;
-	display: flex;
-	justify-content: center;
+	${JustifyCenter}
 `
 
 const HeaderNav = styled.div`
@@ -20,14 +20,12 @@ const HeaderUl = styled.ul`
 	margin-left: 100px;
 `
 const SearchDiv = styled.div`
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	${FlexCenter}
 	margin-right: 140px;
 `
 const SearchInput = styled.input`
 	border: none;
-	background-color: #eef0f4;
+	background-color: ${({ theme }) => theme.Color.grayScale[80]};
 	border-radius: 8px;
 	width: 264px;
 	height: 38px;
@@ -38,9 +36,9 @@ const Link = styled.li`
 	margin-right: 28px;
 	font-size: 18px;
 	font-weight: 700;
-	color: #3c4047;
+	color: ${({ theme }) => theme.Color.grayScale[40]};
 	&:hover {
-		color: gray;
+		color: ${({ theme }) => theme.Color.grayScale[20]};
 	}
 `
 const Logo = styled.img`
