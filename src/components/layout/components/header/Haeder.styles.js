@@ -1,29 +1,31 @@
+import { FlexCenter, JustifyCenter } from '@/styles/Common'
 import styled from 'styled-components'
 
 const HeaderContainer = styled.div`
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 100%;
+	width: 100vw;
 	position: fixed;
 	top: 0px;
+	height: 68px;
+	background-color: white;
 	z-index: 100;
+	${JustifyCenter}
 `
 
-const HeaderNav = styled.ul`
+const HeaderNav = styled.div`
+	width: 910px;
+`
+
+const HeaderUl = styled.ul`
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	margin-left: 100px;
 `
 const SearchDiv = styled.div`
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	${FlexCenter}
 	margin-right: 140px;
 `
 const SearchInput = styled.input`
 	border: none;
-	background-color: #eef0f4;
+	background-color: ${({ theme }) => theme.Color.grayScale[80]};
 	border-radius: 8px;
 	width: 264px;
 	height: 38px;
@@ -34,30 +36,24 @@ const Link = styled.li`
 	margin-right: 28px;
 	font-size: 18px;
 	font-weight: 700;
-	color: #3c4047;
+	color: ${({ theme }) => theme.Color.grayScale[40]};
 	&:hover {
-		color: gray;
+		color: ${({ theme }) => theme.Color.grayScale[20]};
 	}
 `
 const Logo = styled.img`
-	width: 100px;
-	height: 100px;
+	width: 40px;
+	height: 40px;
+	margin-right: 28px;
 `
-const Button = styled.button`
-	border: 1px solid #b1b3b652;
-	font-weight: 700;
-	background-color: white;
-	&:hover {
-		background-color: #eef0f4;
-	}
-`
+
 const S = {
 	HeaderContainer,
 	HeaderNav,
+	HeaderUl,
 	SearchDiv,
 	SearchInput,
 	Link,
 	Logo,
-	Button,
 }
 export default S
