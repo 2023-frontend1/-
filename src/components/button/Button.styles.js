@@ -2,7 +2,7 @@ import { css, styled } from 'styled-components'
 
 const VariantCss = {
 	primary: css`
-		background-color: #f67239;
+		background-color: #ff6f0f;
 		color: white;
 		&:hover {
 			background-color: #ed5413;
@@ -34,7 +34,8 @@ const SizeCss = {
 		padding: 14px 0px;
 	`,
 	large: css`
-		width: 176px;
+		width: 180px;
+		height: 56px;
 		padding: 16px 0px;
 	`,
 }
@@ -46,8 +47,8 @@ const ShapeCss = {
 	small: css`
 		border-radius: 8px;
 	`,
-	mideum: css`
-		border-radius: 12px;
+	medium: css`
+		border-radius: 10px;
 	`,
 }
 
