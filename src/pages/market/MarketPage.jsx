@@ -1,4 +1,4 @@
-import Article from './components/article/Article'
+import Article from '../../components/article/Article'
 import { useNavigate } from 'react-router'
 import List from '../../mocks/Product.json'
 import MarKetImg from '/images/MarketPageImg.webp'
@@ -26,7 +26,17 @@ const MarketPage = () => {
 
 			<S.ListSection>
 				<S.Title>중고거래 인기매물</S.Title>
-				<Article {...{ List }} />
+				{List.products.map((item) => (
+					<Article
+						key={item.productId}
+						src={item.ImageSrcs[0]}
+						productName={item.productName}
+						productPrice={item.productPrice}
+						userLocation={item.userLocation}
+						chattingCnt={item.chattingCnt}
+						interestCnt={item.interestCnt}
+					/>
+				))}
 				{/*물품리스트들은 Article태그를 map돌려서 보여줄거*/}
 			</S.ListSection>
 			<S.link
