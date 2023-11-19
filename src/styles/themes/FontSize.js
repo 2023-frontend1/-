@@ -1,10 +1,10 @@
 const FontSize = {
-	tiny: '1.4rem',
-	small: '1.8rem',
-	medium: '2.0rem',
-	large: '2.4rem',
-	big: '3.2rem',
-	huge: '4.8rem',
+	tiny: '14px',
+	small: '18px',
+	medium: '20px',
+	large: '24px',
+	big: '32px',
+	huge: '48px',
 }
 
 export default FontSize
