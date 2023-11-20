@@ -18,8 +18,10 @@ const InfoRates = () => {
 				{MannerComment.map((val, idx) => {
 					return (
 						<S.Li key={idx}>
-							<S.P>{idx + 1}. 매너 코멘트자리</S.P>
-							<S.P>매너 점수</S.P>
+							<S.P>
+								{idx + 1}. {val}
+							</S.P>
+							<S.P>(칭찬인원) 명</S.P>
 						</S.Li>
 					)
 				})}

@@ -8,24 +8,23 @@ const RateSection = styled.section`
 	padding: 0;
 `
 const Ul = styled.ul`
-	counter-reset: item;
 	width: 100%;
-	display: block;
+	padding-inline-start: 0;
 `
 const Li = styled.li`
-	background-color: red;
-	list-style-type: none;
+	background-color: ${({ theme }) => theme.Color.grayScale[100]};
 	counter-increment: item;
 	position: relative;
-	padding: 16px 20px;
-	border-bottom: 1px solid #e9ecef;
+	border-bottom: 1px solid #${({ theme }) => theme.Color.grayScale[60]};
 	width: 100%;
 	${JustifyBetween}
 `
 
 const P = styled.p`
 	display: inline-block;
-	font-size: 15px;
+	font-size: ${({ theme }) => {
+		theme.FontSize.big
+	}};
 `
 const S = {
 	RateSection,
