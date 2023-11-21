@@ -2,9 +2,7 @@ import ButtonStyle from './Button.styles'
 
 const Button = ({ variant, size, shape, children, ...rest }) => {
 	return (
-		<ButtonStyle {...{ variant, size, shape, ...rest }}>
-			{children}
-		</ButtonStyle>
+		<ButtonStyle {...{ variant, size, shape, ...rest }}>{children}</ButtonStyle>
 	)
 }
 
