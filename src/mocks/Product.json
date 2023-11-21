@@ -8,13 +8,12 @@
 				"https://source.unsplash.com/random"
 			],
 			"productName": "패딩",
-			"productPrice": "50000",
-			"interestCnt": "23",
-			"chattingCnt": "42",
+			"productPrice": 50000,
+			"interestCnt": 23,
+			"chattingCnt": 42,
 			"productDetail": "야 패딩 판다. 빨리 오셈.",
 			"status": "complete",
-			"userId": "1",
-			"userLocation": "서울특별시"
+			"userId": 1
 		},
 		{
 			"productId": 2,
@@ -25,8 +24,7 @@
 			"chattingCnt": 2,
 			"productDetail": "우리 아빠 애착 지갑",
 			"status": "onSale",
-			"userId": 2,
-			"userLocation": "대구광역시"
+			"userId": 2
 		},
 		{
 			"productId": 3,
@@ -40,8 +38,7 @@
 			"chattingCnt": 143,
 			"productDetail": "우리집에서 키운 악어로 만든 가죽",
 			"status": "onSale",
-			"userId": 3,
-			"userLocation": "부산광역시"
+			"userId": 3
 		},
 		{
 			"productId": 4,
@@ -52,8 +49,7 @@
 			"chattingCnt": 1,
 			"productDetail": "맛있는 커피",
 			"status": "onSale",
-			"userId": 4,
-			"userLocation": "인천광역시"
+			"userId": 4
 		},
 		{
 			"productId": 5,
@@ -64,8 +60,7 @@
 			"chattingCnt": 0,
 			"productDetail": "👍",
 			"status": "complete",
-			"userId": 5,
-			"userLocation": "광주광역시"
+			"userId": 5
 		},
 		{
 			"productId": 6,
@@ -79,8 +74,7 @@
 			"chattingCnt": 132,
 			"productDetail": "🕊 비둘기 한마리 물고 가세요~",
 			"status": "onSale",
-			"userId": 6,
-			"userLocation": "대전광역시"
+			"userId": 6
 		},
 		{
 			"productId": 7,
@@ -94,8 +88,7 @@
 			"chattingCnt": 123,
 			"productDetail": "아이가 유치원 조기 졸업해서, 별로 안썼어요. 아주 깨끗합니다. ☺️",
 			"status": "complete",
-			"userId": 7,
-			"userLocation": "서울특별시"
+			"userId": 7
 		},
 		{
 			"productId": 8,
@@ -110,8 +103,7 @@
 			"chattingCnt": 32,
 			"productDetail": "korea it 학원에서 직접키운 유기농 파프리카",
 			"status": "onSale",
-			"userId": 8,
-			"userLocation": "부산광역시"
+			"userId": 8
 		},
 		{
 			"productId": 9,
@@ -126,8 +118,7 @@
 			"chattingCnt": 55,
 			"productDetail": "아버지가 입던 방한복 팔아요~~",
 			"status": "onSale",
-			"userId": 9,
-			"userLocation": "인천광역시"
+			"userId": 9
 		},
 		{
 			"productId": 10,
@@ -142,8 +133,7 @@
 			"chattingCnt": 10,
 			"productDetail": "어제 먹다 남은건데 무료 나눔합니다. 저희집으로 가지러 오세요",
 			"status": "onSale",
-			"userId": 10,
-			"userLocation": "대구광역시"
+			"userId": 10
 		},
 		{
 			"productId": 11,
@@ -158,8 +148,7 @@
 			"chattingCnt": 1,
 			"productDetail": "한쪽 구멍나서 500원에 급하게 처분합니다. 네고사절",
 			"status": "complete",
-			"userId": 1,
-			"userLocation": "서울특별시"
+			"userId": 1
 		},
 		{
 			"productId": 12,
@@ -174,8 +163,7 @@
 			"chattingCnt": 156,
 			"productDetail": "취업 실패해서 정장 급하게 처분합니다... 한번밖에 안입었어요.",
 			"status": "complete",
-			"userId": 2,
-			"userLocation": "대구광역시"
+			"userId": 2
 		},
 		{
 			"productId": 13,
@@ -190,8 +178,7 @@
 			"chattingCnt": 7,
 			"productDetail": "집뒤에 산에서 주워온 밤 1kg팔아요 ~~~. 집에서 쪄먹으면 맛있습니다.",
 			"status": "onSale",
-			"userId": 3,
-			"userLocation": "부산광역시"
+			"userId": 3
 		},
 		{
 			"productId": 14,
@@ -206,8 +193,7 @@
 			"chattingCnt": 100,
 			"productDetail": "군대 보급품 훔쳐온 손난로 10박스 싸게팔아요 언능 연락주세요",
 			"status": "onSale",
-			"userId": 4,
-			"userLocation": "인천광역시"
+			"userId": 4
 		},
 		{
 			"productId": 15,
@@ -221,8 +207,7 @@
 			"chattingCnt": 38,
 			"productDetail": "프리미엄 가죽 소재로 제작된 지갑입니다. 튼튼하고 세련된 디자인이 특징입니다.",
 			"status": "onSale",
-			"userId": 5,
-			"userLocation": "광주광역시"
+			"userId": 5
 		},
 		{
 			"productId": 16,
@@ -233,8 +218,7 @@
 			"chattingCnt": 20,
 			"productDetail": "어디서나 간편하게 사용할 수 있는 블루투스 스피커입니다. 고음질 사운드를 즐겨보세요.",
 			"status": "onSale",
-			"userId": 6,
-			"userLocation": "대전광역시"
+			"userId": 6
 		},
 		{
 			"productId": 17,
@@ -249,8 +233,7 @@
 			"chattingCnt": 27,
 			"productDetail": "가을 시즌을 맞이하여 세련된 디자인의 여성용 코트를 선보입니다. 다양한 컬러로 구성되어 있습니다.",
 			"status": "onSale",
-			"userId": 7,
-			"userLocation": "서울특별시"
+			"userId": 7
 		},
 		{
 			"productId": 18,
@@ -261,8 +244,7 @@
 			"chattingCnt": 32,
 			"productDetail": "편안하면서도 스타일리시한 디자인의 캐주얼 스니커즈입니다. 다양한 사이즈로 제공됩니다.",
 			"status": "onSale",
-			"userId": 8,
-			"userLocation": "부산광역시"
+			"userId": 8
 		},
 		{
 			"productId": 19,
@@ -273,8 +255,7 @@
 			"chattingCnt": 25,
 			"productDetail": "스포츠나 운동 시에 편리하게 사용할 수 있는 무선 헤드폰입니다. 고음질 음향을 제공합니다.",
 			"status": "onSale",
-			"userId": 9,
-			"userLocation": "인천광역시"
+			"userId": 9
 		},
 		{
 			"productId": 20,
@@ -288,8 +269,7 @@
 			"chattingCnt": 22,
 			"productDetail": "건강한 생활을 위한 헬스용 바디웨이트입니다. 다양한 무게로 구성되어 있어 다양한 운동에 활용 가능합니다.",
 			"status": "onSale",
-			"userId": 1,
-			"userLocation": "서울특별시"
+			"userId": 1
 		},
 		{
 			"productId": 21,
@@ -303,8 +283,7 @@
 			"chattingCnt": 28,
 			"productDetail": "최고급 면 소재로 만든 편안한 침대 시트입니다. 여러 색상으로 제공됩니다.",
 			"status": "onSale",
-			"userId": 2,
-			"userLocation": "대구광역시"
+			"userId": 2
 		},
 		{
 			"productId": 22,
@@ -315,8 +294,7 @@
 			"chattingCnt": 22,
 			"productDetail": "게이머를 위한 특별 디자인의 컴퓨터 게이밍 의자입니다. 편안한 디자인으로 장시간 사용에 적합합니다.",
 			"status": "onSale",
-			"userId": 3,
-			"userLocation": "부산광역시"
+			"userId": 3
 		},
 		{
 			"productId": 23,
@@ -331,8 +309,7 @@
 			"chattingCnt": 35,
 			"productDetail": "가을 시즌에 어울리는 캐주얼 자켓입니다. 편안하면서도 스타일리시한 아이템입니다.",
 			"status": "onSale",
-			"userId": 4,
-			"userLocation": "인천광역시"
+			"userId": 4
 		},
 		{
 			"productId": 24,
@@ -343,8 +320,7 @@
 			"chattingCnt": 29,
 			"productDetail": "여행이나 외출 시 휴대하기 좋은 휴대용 충전기입니다. 다양한 디바이스와 호환됩니다.",
 			"status": "complete",
-			"userId": 5,
-			"userLocation": "광주광역시"
+			"userId": 5
 		},
 		{
 			"productId": 25,
@@ -358,8 +334,7 @@
 			"chattingCnt": 20,
 			"productDetail": "주방에서 다양한 요리에 활용할 수 있는 다용도 칼입니다. 날카로운 칼날로 간편한 조리가 가능합니다.",
 			"status": "onSale",
-			"userId": 7,
-			"userLocation": "서울특별시"
+			"userId": 7
 		},
 		{
 			"productId": 26,
@@ -373,8 +348,7 @@
 			"chattingCnt": 20,
 			"productDetail": "산지 얼마안됨",
 			"status": "onSale",
-			"userId": 8,
-			"userLocation": "부산광역시"
+			"userId": 8
 		}
 	]
 }
