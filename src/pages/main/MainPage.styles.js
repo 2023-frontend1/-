@@ -1,18 +1,17 @@
 import styled from 'styled-components'
-import theme from '@/styles/themes/theme'
 import { AlignCenter, JustifyBetween } from '@/styles/Common'
 
 const MainTop = styled.section`
 	width: 100vw;
 	padding-top: 24px;
-	background-color: ${theme.Color.orange[0]};
+	background-color: ${({ theme }) => theme.Color.orange[0]};
 `
 
 const MainTopWrapper = styled.div`
 	width: 1024px;
 	height: 760px;
 	position: relative;
-	background-color: ${theme.Color.orange[0]};
+	background-color: ${({ theme }) => theme.Color.orange[0]};
 	margin: 0px auto;
 `
 
@@ -27,13 +26,13 @@ const MainTopImg = styled.img`
 	bottom: 0;
 	width: 655px;
 	height: 800px;
-	background-color: ${theme.Color.orange[0]};
+	background-color: ${({ theme }) => theme.Color.orange[0]};
 	background-repeat: no-repeat;
 	background-size: 804px 685px;
 `
 const MainEven = styled.section`
 	width: 100vw;
-	background-color: ${theme.Color.grayScale[100]};
+	background-color: ${({ theme }) => theme.Color.grayScale[100]};
 `
 const Wrapper = styled.div`
 	width: 1024px;
@@ -47,13 +46,13 @@ const Img = styled.img`
 	height: 750px;
 `
 const ContentTitle = styled.p`
-	font-weight: ${theme.FontWeight.bold};
-	font-size: ${theme.FontSize.tiny};
-	color: ${theme.Color.orange[100]};
+	font-weight: ${({ theme }) => theme.FontWeight.bold};
+	font-size: ${({ theme }) => theme.FontSize.tiny};
+	color: ${({ theme }) => theme.Color.orange[100]};
 `
 const Content = styled.p`
-	font-size: ${theme.FontSize.tiny};
-	color: ${theme.Color.grayScale[40]};
+	font-size: ${({ theme }) => theme.FontSize.tiny};
+	color: ${({ theme }) => theme.Color.grayScale[40]};
 	line-height: 30px;
 `
 
@@ -76,16 +75,16 @@ const ListItem = styled.li`
 	width: 124px;
 `
 const StoryTitle = styled.p`
-	font-weight: ${theme.FontWeight.bold};
+	font-weight: ${({ theme }) => theme.FontWeight.bold};
 `
 const StoryContent = styled.p`
 	font-size: 13px;
-	color: ${theme.Color.grayScale[40]};
+	color: ${({ theme }) => theme.Color.grayScale[40]};
 	line-height: 17px;
 `
 const MainLast = styled.section`
 	width: 100vw;
-	background-color: ${theme.Color.green[0]};
+	background-color: ${({ theme }) => theme.Color.green[0]};
 `
 
 const S = {
@@ -104,7 +103,7 @@ const S = {
 	ListItem,
 	StoryTitle,
 	StoryContent,
-  MainLast,
+	MainLast,
 }
 
 export default S
