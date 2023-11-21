@@ -1,5 +1,4 @@
-import { readFileSync } from 'fs'
-const { products } = JSON.parse(readFileSync('../../mocks/Product.json'))
+import { products } from '../../mocks/Product.json'
 
 /** productId 를 입력받아, 같은 id 를 가지는 상품을 반환합니다. */
 const GetProductOneById = (productId) => {

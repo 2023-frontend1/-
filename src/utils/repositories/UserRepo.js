@@ -1,5 +1,4 @@
-import { readFileSync } from 'fs'
-const { users } = JSON.parse(readFileSync('../../mocks/User.json'))
+import { users } from '../../mocks/User.json'
 
 /** 사용자 아이디를 입력받아, 해당 아이디 값은 가지는 사용자 한명의 정보를 반환합니다. */
 const GetUserOneById = (userId) => {
