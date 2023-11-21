@@ -5,13 +5,11 @@ const Box = styled.div`
 	width: 100vw;
 `
 const MainWrap = styled.article`
-	margin-top: 68x;
 	padding-bottom: 0;
 	width: 730px;
 	height: 100%;
 	${FlexCenter}
 	${DirectionColumn}
-	align-items: center;
 `
 const LeftBtn = styled.button`
 	padding: 0px;
