@@ -1,13 +1,14 @@
 import Article from '../../components/article/Article'
 import { useNavigate } from 'react-router'
-import List from '../../mocks/Product.json'
 import MarKetImg from '/images/MarketPageImg.webp'
 import S from './MarketPage.styles'
+import ProductService from '@/utils/services/ProductService'
 const MarketPage = () => {
 	const navigate = useNavigate()
 	const OnCategoryClick = (path) => {
 		navigate(path)
 	}
+	const ProductSum = ProductService.GetProductsSummaries(18)
 	return (
 		<S.Center>
 			<S.ImgSection>
@@ -26,10 +27,10 @@ const MarketPage = () => {
 
 			<S.ListSection>
 				<S.Title>중고거래 인기매물</S.Title>
-				{List.products.map((item) => (
+				{ProductSum.products.map((item) => (
 					<Article
 						key={item.productId}
-						src={item.ImageSrcs[0]}
+						src={item.ImageSrc}
 						productName={item.productName}
 						productPrice={item.productPrice}
 						userLocation={item.userLocation}
