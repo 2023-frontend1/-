@@ -1,7 +1,13 @@
 import { ImageBox } from '@/components'
 import S from './ProductPage.styles'
+import { useParams } from 'react-router-dom'
+import ProductService from '@/utils/services/ProductService'
 
 const ProductPage = () => {
+	let { productId } = useParams()
+
+	console.log(ProductService.GetProductDetailById(productId))
+	const Product = ProductService.GetProductDetailById(productId)
 	return (
 		<S.Box>
 			<S.MainWrap>
@@ -10,7 +16,7 @@ const ProductPage = () => {
 					<ImageBox
 						boxshape={'default'}
 						size={'largeProduct'}
-						src={'https://source.unsplash.com/random'}
+						src={Product.ImageSrcs[0]}
 					/>
 					<S.RightBtn />
 				</S.ImageWrap>
@@ -23,15 +29,15 @@ const ProductPage = () => {
 							src={'https://source.unsplash.com/random'}
 						/>
 						<S.InfoWrap>
-							<S.NickNameDiv>nickName</S.NickNameDiv>
-							<S.LocationDiv>userLocation</S.LocationDiv>
+							<S.NickNameDiv>{Product.userNickname}</S.NickNameDiv>
+							<S.LocationDiv>{Product.userLocation}</S.LocationDiv>
 						</S.InfoWrap>
 					</S.LeftProfileWrap>
 					<S.RightProfileWrap>
 						<S.TampWrap>
 							<S.TampText>매너온도</S.TampText>
 							<S.TampTamp>
-								37.5
+								{Product.mannerTemperature}
 								<S.TampSpan>°C</S.TampSpan>
 							</S.TampTamp>
 							<S.TampBox>
@@ -42,24 +48,13 @@ const ProductPage = () => {
 					</S.RightProfileWrap>
 				</S.LinkProfile>
 				<S.DescriptWrap>
-					<S.DescriptTitle>상품 제목</S.DescriptTitle>
+					<S.DescriptTitle>{Product.productName}</S.DescriptTitle>
 					<S.DescriptCategory>카테고리 5일전</S.DescriptCategory>
-					<S.DescriptPrice>상품가격 데이터에서</S.DescriptPrice>
-					<S.DescriptContent>
-						상품에 대한 설명을 적는 공간
-						<br />
-						상품에 대한 설명을 적는 공간
-						<br />
-						상품에 대한 설명을 적는 공간
-						<br />
-						상품에 대한 설명을 적는 공간
-						<br />
-						상품에 대한 설명을 적는 공간
-						<br />
-						상품에 대한 설명을 적는 공간
-						<br />
-					</S.DescriptContent>
-					<S.DescriptCount>관심 36 ∙ 채팅 41 ∙ 조회 1259</S.DescriptCount>
+					<S.DescriptPrice>{Product.productPrice}원</S.DescriptPrice>
+					<S.DescriptContent>{Product.productDetail}</S.DescriptContent>
+					<S.DescriptCount>
+						관심 {Product.interestCnt} ∙ 채팅 {Product.chattingCnt}
+					</S.DescriptCount>
 				</S.DescriptWrap>
 				<S.MoreProductWrap>
 					<S.MoreProductHeader>당근 인기중고</S.MoreProductHeader>
