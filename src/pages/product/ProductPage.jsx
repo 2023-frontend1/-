@@ -5,8 +5,6 @@ import ProductService from '@/utils/services/ProductService'
 
 const ProductPage = () => {
 	let { productId } = useParams()
-
-	console.log(ProductService.GetProductDetailById(productId))
 	const Product = ProductService.GetProductDetailById(productId)
 	return (
 		<S.Box>
