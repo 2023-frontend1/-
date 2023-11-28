@@ -10,7 +10,8 @@
 		"preview": "vite preview",
 		"postinstall": "husky install",
 		"lint:fix": "eslint . --ext .js,.jsx --fix",
-		"format": "prettier --write --cache \"src/**/*.{js,jsx}\""
+		"format": "prettier --write --cache \"src/**/*.{js,jsx}\"",
+		"postinstall": "husky install"
 	},
 	"dependencies": {
 		"react": "^18.2.0",

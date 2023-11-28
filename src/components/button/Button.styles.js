@@ -1,5 +1,3 @@
-import { css, styled } from 'styled-components'
-
 const VariantCss = {
 	primary: css`
 		background-color: #ff6f0f;

@@ -2,7 +2,7 @@
 	"users": [
 		{
 			"userId": 1,
-			"userNickname": "김성용",
+			"userNickname": "이지은",
 			"userLocation": "서울특별시",
 			"mannerTemperature": 49.2,
 			"itemIdList": [1, 11, 20],
